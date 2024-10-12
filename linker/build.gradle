@@ -1,0 +1,45 @@
+plugins {
+  id 'java'
+}
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
+repositories {
+  mavenCentral()
+}
+
+sourceSets {
+  main {
+    java {
+      srcDirs = ['./src']
+    }
+  }
+}
+
+dependencies {
+  //implementation files('./libs/jol-core-0.17.jar')  
+  compileOnly group: 'org.openjdk.jol', name: 'jol-core', version: '0.17'
+}
+
+compileJava {
+  options.javaModuleVersion = provider { project.version }
+  options.compilerArgs += ['--add-modules', 'jdk.incubator.foreign']
+  //options.compilerArgs += ['-cp', 'libs/jol-core-0.17.jar']
+
+}
+
+java {
+  modularity.inferModulePath = true
+}
+
+jar {
+  manifest {
+    attributes (
+      "Manifest-Version": "1.0",
+      "Main-Class": "trust.nccgroup.linkertest.LinkerTest"
+    )
+  }
+}
+
+

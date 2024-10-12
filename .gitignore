@@ -1,0 +1,8 @@
+build/
+*.bak
+.gradle/
+*.class
+jdk/
+hs_err_*
+*.so
+*.dylib

@@ -1,0 +1,1076 @@
+root@84af618e2239:/moduletest/linker# java --add-modules jdk.incubator.foreign --enable-native-access=trust.nccgroup.linkertest -p build/libs/linkertest.jar -m trust.nccgroup.linkertest/trust.nccgroup.linkertest.LinkerTest
+WARNING: Using incubator modules: jdk.incubator.foreign
+scanning for class trust.nccgroup.linkertest.LinkerTest
+c2800000-c6600000 rw-p 00000000 00:00 0
+c6600000-ff800000 ---p 00000000 00:00 0
+ff800000-ff876000 rw-p 00c9d000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ff876000-ff900000 rw-p 00000000 00:00 0
+ff900000-ffc00000 ---p 00000000 00:00 0
+ffc00000-ffc82000 rw-p 00c1b000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ffc82000-ffd00000 rw-p 00000000 00:00 0
+ffd00000-100000000 ---p 00000000 00:00 0
+800000000-800458000 rw-p 00001000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800458000-800be2000 r--p 00459000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800be2000-800c00000 ---p 00000000 00:00 0
+800c00000-800c20000 rw-p 00000000 00:00 0
+800c20000-800c40000 ---p 00000000 00:00 0
+800c40000-800c80000 rw-p 00000000 00:00 0
+800c80000-840c00000 ---p 00000000 00:00 0
+559c02e51000-559c02e52000 r--p 00000000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e52000-559c02e53000 r-xp 00001000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e53000-559c02e54000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e54000-559c02e55000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e55000-559c02e56000 rw-p 00003000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c03b24000-559c03b45000 rw-p 00000000 00:00 0                          [heap]
+7f7698000000-7f7698150000 rw-p 00000000 00:00 0
+7f7698150000-7f769c000000 ---p 00000000 00:00 0
+7f769c000000-7f769c021000 rw-p 00000000 00:00 0
+7f769c021000-7f76a0000000 ---p 00000000 00:00 0
+7f76a0000000-7f76a0021000 rw-p 00000000 00:00 0
+7f76a0021000-7f76a4000000 ---p 00000000 00:00 0
+7f76a4000000-7f76a4127000 rw-p 00000000 00:00 0
+7f76a4127000-7f76a8000000 ---p 00000000 00:00 0
+7f76a8000000-7f76a8021000 rw-p 00000000 00:00 0
+7f76a8021000-7f76ac000000 ---p 00000000 00:00 0
+7f76ac000000-7f76ac021000 rw-p 00000000 00:00 0
+7f76ac021000-7f76b0000000 ---p 00000000 00:00 0
+7f76b0000000-7f76b0021000 rw-p 00000000 00:00 0
+7f76b0021000-7f76b4000000 ---p 00000000 00:00 0
+7f76b4000000-7f76b4021000 rw-p 00000000 00:00 0
+7f76b4021000-7f76b8000000 ---p 00000000 00:00 0
+7f76b8000000-7f76b8021000 rw-p 00000000 00:00 0
+7f76b8021000-7f76bc000000 ---p 00000000 00:00 0
+7f76bc000000-7f76bc021000 rw-p 00000000 00:00 0
+7f76bc021000-7f76c0000000 ---p 00000000 00:00 0
+7f76c0000000-7f76c0021000 rw-p 00000000 00:00 0
+7f76c0021000-7f76c4000000 ---p 00000000 00:00 0
+7f76c57cd000-7f76c57d1000 ---p 00000000 00:00 0
+7f76c57d1000-7f76c58cd000 rw-p 00000000 00:00 0
+7f76c58cd000-7f76c58ce000 ---p 00000000 00:00 0
+7f76c58ce000-7f76c59cf000 rw-p 00000000 00:00 0
+7f76c59cf000-7f76c59d3000 ---p 00000000 00:00 0
+7f76c59d3000-7f76c5acf000 rw-p 00000000 00:00 0
+7f76c5acf000-7f76c5ad3000 ---p 00000000 00:00 0
+7f76c5ad3000-7f76c5c00000 rw-p 00000000 00:00 0
+7f76c5c00000-7f76c5c04000 ---p 00000000 00:00 0
+7f76c5c04000-7f76c5d00000 rw-p 00000000 00:00 0
+7f76c5d00000-7f76c5d04000 ---p 00000000 00:00 0
+7f76c5d04000-7f76c5e00000 rw-p 00000000 00:00 0
+7f76c5e00000-7f76c5e04000 ---p 00000000 00:00 0
+7f76c5e04000-7f76c5f00000 rw-p 00000000 00:00 0
+7f76c5f00000-7f76c5f04000 ---p 00000000 00:00 0
+7f76c5f04000-7f76c8000000 rw-p 00000000 00:00 0
+7f76c8000000-7f76c8021000 rw-p 00000000 00:00 0
+7f76c8021000-7f76cc000000 ---p 00000000 00:00 0
+7f76cc000000-7f76cc021000 rw-p 00000000 00:00 0
+7f76cc021000-7f76d0000000 ---p 00000000 00:00 0
+7f76d0000000-7f76d0021000 rw-p 00000000 00:00 0
+7f76d0021000-7f76d4000000 ---p 00000000 00:00 0
+7f76d4015000-7f76d4019000 ---p 00000000 00:00 0
+7f76d4019000-7f76d4115000 rw-p 00000000 00:00 0
+7f76d4115000-7f76d4119000 ---p 00000000 00:00 0
+7f76d4119000-7f76d4215000 rw-p 00000000 00:00 0
+7f76d4215000-7f76d44fe000 r--p 00000000 fe:01 2816722                    /usr/lib/locale/locale-archive
+7f76d44fe000-7f76d4502000 ---p 00000000 00:00 0
+7f76d4502000-7f76d45fe000 rw-p 00000000 00:00 0
+7f76d45fe000-7f76d4602000 ---p 00000000 00:00 0
+7f76d4602000-7f76d46fe000 rw-p 00000000 00:00 0
+7f76d46fe000-7f76d46ff000 ---p 00000000 00:00 0
+7f76d46ff000-7f76d49a0000 rw-p 00000000 00:00 0
+7f76d49a0000-7f76d4c00000 ---p 00000000 00:00 0
+7f76d4c00000-7f76d4c40000 rw-p 00000000 00:00 0
+7f76d4c40000-7f76d5000000 ---p 00000000 00:00 0
+7f76d5025000-7f76d502a000 r--p 00000000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d502a000-7f76d506b000 r-xp 00005000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d506b000-7f76d50f4000 r--p 00046000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d50f4000-7f76d50f5000 r--p 000ce000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d50f5000-7f76d50f6000 rw-p 000cf000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d50f6000-7f76d5177000 rw-p 00000000 00:00 0
+7f76d5177000-7f76d5178000 ---p 00000000 00:00 0
+7f76d5178000-7f76d5279000 rw-p 00000000 00:00 0
+7f76d5279000-7f76d527a000 ---p 00000000 00:00 0
+7f76d527a000-7f76d547c000 rw-p 00000000 00:00 0
+7f76d547c000-7f76d56ec000 rwxp 00000000 00:00 0
+7f76d56ec000-7f76d5a0b000 ---p 00000000 00:00 0
+7f76d5a0b000-7f76d5c7b000 rwxp 00000000 00:00 0
+7f76d5c7b000-7f76dcf43000 ---p 00000000 00:00 0
+7f76dcf43000-7f76dd1b3000 rwxp 00000000 00:00 0
+7f76dd1b3000-7f76e447c000 ---p 00000000 00:00 0
+7f76e447c000-7f76ec000000 r--s 00000000 fe:01 2882433                    /opt/java/openjdk/lib/modules
+7f76ec000000-7f76ec1b4000 rw-p 00000000 00:00 0
+7f76ec1b4000-7f76f0000000 ---p 00000000 00:00 0
+7f76f0014000-7f76f0015000 r--p 00000000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0015000-7f76f0016000 r-xp 00001000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0016000-7f76f0017000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0017000-7f76f0018000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0018000-7f76f0019000 rw-p 00003000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0019000-7f76f001b000 r--p 00000000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f001b000-7f76f001f000 r-xp 00002000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f001f000-7f76f0021000 r--p 00006000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f0021000-7f76f0022000 r--p 00007000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f0022000-7f76f0023000 rw-p 00008000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f0023000-7f76f0027000 r--p 00000000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f0027000-7f76f0035000 r-xp 00004000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f0035000-7f76f0039000 r--p 00012000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f0039000-7f76f003a000 r--p 00015000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f003a000-7f76f003b000 rw-p 00016000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f003b000-7f76f0042000 r--p 00000000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0042000-7f76f004b000 r-xp 00007000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f004b000-7f76f004f000 r--p 00010000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f004f000-7f76f0050000 ---p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0050000-7f76f0051000 r--p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0051000-7f76f0052000 rw-p 00015000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0052000-7f76f01ef000 rw-p 00000000 00:00 0
+7f76f01ef000-7f76f01f0000 ---p 00000000 00:00 0
+7f76f01f0000-7f76f02f1000 rw-p 00000000 00:00 0
+7f76f02f1000-7f76f02f2000 ---p 00000000 00:00 0
+7f76f02f2000-7f76f03f3000 rw-p 00000000 00:00 0
+7f76f03f3000-7f76f03f4000 ---p 00000000 00:00 0
+7f76f03f4000-7f76f060e000 rw-p 00000000 00:00 0
+7f76f060e000-7f76f1456000 ---p 00000000 00:00 0
+7f76f1456000-7f76f145a000 rw-p 00000000 00:00 0
+7f76f145a000-7f76f1466000 ---p 00000000 00:00 0
+7f76f1466000-7f76f146a000 rw-p 00000000 00:00 0
+7f76f146a000-7f76f1476000 ---p 00000000 00:00 0
+7f76f1476000-7f76f156e000 rw-p 00000000 00:00 0
+7f76f156e000-7f76f23b6000 ---p 00000000 00:00 0
+7f76f23b6000-7f76f23ba000 rw-p 00000000 00:00 0
+7f76f23ba000-7f76f23c6000 ---p 00000000 00:00 0
+7f76f23c6000-7f76f23ca000 rw-p 00000000 00:00 0
+7f76f23ca000-7f76f23d6000 ---p 00000000 00:00 0
+7f76f23d6000-7f76f23f5000 rw-p 00000000 00:00 0
+7f76f23f5000-7f76f25be000 ---p 00000000 00:00 0
+7f76f25be000-7f76f25bf000 rw-p 00000000 00:00 0
+7f76f25bf000-7f76f25c0000 ---p 00000000 00:00 0
+7f76f25c0000-7f76f25c1000 rw-p 00000000 00:00 0
+7f76f25c1000-7f76f25c2000 ---p 00000000 00:00 0
+7f76f25c2000-7f76f25e1000 rw-p 00000000 00:00 0
+7f76f25e1000-7f76f27aa000 ---p 00000000 00:00 0
+7f76f27aa000-7f76f27ab000 rw-p 00000000 00:00 0
+7f76f27ab000-7f76f27ac000 ---p 00000000 00:00 0
+7f76f27ac000-7f76f27ad000 rw-p 00000000 00:00 0
+7f76f27ad000-7f76f27ae000 ---p 00000000 00:00 0
+7f76f27ae000-7f76f27cd000 rw-p 00000000 00:00 0
+7f76f27cd000-7f76f2996000 ---p 00000000 00:00 0
+7f76f2996000-7f76f2997000 rw-p 00000000 00:00 0
+7f76f2997000-7f76f2998000 ---p 00000000 00:00 0
+7f76f2998000-7f76f2999000 rw-p 00000000 00:00 0
+7f76f2999000-7f76f299a000 ---p 00000000 00:00 0
+7f76f299a000-7f76f2ba1000 rw-p 00000000 00:00 0
+7f76f2ba1000-7f76f2c87000 ---p 00000000 00:00 0
+7f76f2c87000-7f76f2c8c000 rw-p 00000000 00:00 0
+7f76f2c8c000-7f76f2d72000 ---p 00000000 00:00 0
+7f76f2d72000-7f76f2d77000 rw-p 00000000 00:00 0
+7f76f2d77000-7f76f2d7e000 ---p 00000000 00:00 0
+7f76f2d7e000-7f76f2d8b000 r--p 00000000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2d8b000-7f76f2d9d000 r-xp 0000d000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2d9d000-7f76f2da3000 r--p 0001f000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da3000-7f76f2da4000 ---p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da4000-7f76f2da5000 r--p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da5000-7f76f2da6000 rw-p 00026000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da6000-7f76f2da7000 rw-p 00000000 00:00 0
+7f76f2da7000-7f76f2daf000 rw-s 00000000 fe:01 1833515                    /tmp/hsperfdata_root/13380
+7f76f2daf000-7f76f2db3000 r--p 00000000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2db3000-7f76f2dc6000 r-xp 00004000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dc6000-7f76f2dcc000 r--p 00017000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dcc000-7f76f2dce000 r--p 0001c000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dce000-7f76f2dcf000 rw-p 0001e000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dcf000-7f76f2dd3000 ---p 00000000 00:00 0
+7f76f2dd3000-7f76f2ecf000 rw-p 00000000 00:00 0
+7f76f2ecf000-7f76f2edd000 r--p 00000000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2edd000-7f76f2f59000 r-xp 0000e000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2f59000-7f76f2fb4000 r--p 0008a000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2fb4000-7f76f2fb5000 r--p 000e4000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2fb5000-7f76f2fb6000 rw-p 000e5000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2fb6000-7f76f2fb7000 r--p 00000000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fb7000-7f76f2fb8000 r-xp 00001000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fb8000-7f76f2fb9000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fb9000-7f76f2fba000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fba000-7f76f2fbb000 rw-p 00003000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fbb000-7f76f320c000 r--p 00000000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f320c000-7f76f3f25000 r-xp 00251000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f3f25000-7f76f41b0000 r--p 00f6a000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f41b0000-7f76f4269000 r--p 011f4000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f4269000-7f76f429e000 rw-p 012ad000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f429e000-7f76f42fc000 rw-p 00000000 00:00 0
+7f76f42fc000-7f76f4324000 r--p 00000000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4324000-7f76f44b9000 r-xp 00028000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f44b9000-7f76f4511000 r--p 001bd000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4511000-7f76f4515000 r--p 00214000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4515000-7f76f4517000 rw-p 00218000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4517000-7f76f4524000 rw-p 00000000 00:00 0
+7f76f4524000-7f76f4525000 r--p 00000000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4525000-7f76f4526000 r-xp 00001000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4526000-7f76f4527000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4527000-7f76f4528000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4528000-7f76f4529000 rw-p 00003000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4529000-7f76f452a000 r--p 00000000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452a000-7f76f452b000 r-xp 00001000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452b000-7f76f452c000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452c000-7f76f452d000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452d000-7f76f452e000 rw-p 00003000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452e000-7f76f4531000 r--p 00000000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f4531000-7f76f453b000 r-xp 00003000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f453b000-7f76f453e000 r--p 0000d000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f453e000-7f76f453f000 ---p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f453f000-7f76f4540000 r--p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f4540000-7f76f4541000 rw-p 00011000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f4541000-7f76f4543000 r--p 00000000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f4543000-7f76f4554000 r-xp 00002000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f4554000-7f76f455a000 r--p 00013000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455a000-7f76f455b000 ---p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455b000-7f76f455c000 r--p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455c000-7f76f455d000 rw-p 0001a000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455e000-7f76f455f000 ---p 00000000 00:00 0
+7f76f455f000-7f76f4560000 r--p 00000000 00:00 0
+7f76f4560000-7f76f4562000 rw-p 00000000 00:00 0
+7f76f4562000-7f76f4564000 r--p 00000000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f4564000-7f76f458e000 r-xp 00002000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f458e000-7f76f4599000 r--p 0002c000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f4599000-7f76f459a000 ---p 00000000 00:00 0
+7f76f459a000-7f76f459c000 r--p 00037000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f459c000-7f76f459e000 rw-p 00039000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd5abb1000-7ffd5abd2000 rw-p 00000000 00:00 0                          [stack]
+7ffd5abe4000-7ffd5abe8000 r--p 00000000 00:00 0                          [vvar]
+7ffd5abe8000-7ffd5abea000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+found: 4286585504
+[ff801a9f]: 0 1 42 68
+[ff801aa3]: 47 49 0 0
+[ff801aa7]: 0 58 17 0
+[ff801aab]: 0 0 0 0
+[ff801aaf]: 0 e8 92 4
+[ff801ab3]: 0 8 0 0
+[ff801ab7]: 0 80 a3 4
+[ff801abb]: 0 8 0 0
+[ff801abf]: 0 14 0 0
+[ff801ac3]: 0 5 0 0
+[ff801ac7]: 0 0 0 0
+[ff801acb]: 0 f8 49 85
+[ff801acf]: c2 10 38 80
+[ff801ad3]: c2 0 0 0
+[ff801ad7]: 0 0 0 0
+[ff801adb]: 0 e0 8b c4
+[ff801adf]: ff 0 0 0
+[ff801ae3]: 0 0 0 0
+[ff801ae7]: 0 0 0 0
+[ff801aeb]: 0 0 0 0
+[ff801aef]: 0 0 0 0
+[ff801af3]: 0 0 0 0
+[ff801af7]: 0 0 0 0
+[ff801afb]: 0 0 0 0
+[ff801aff]: 0 0 0 0
+scanning for class java.io.ObjectStreamClass
+c2800000-cd300000 rw-p 00000000 00:00 0
+cd300000-ff800000 ---p 00000000 00:00 0
+ff800000-ff876000 rw-p 00c9d000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ff876000-ff900000 rw-p 00000000 00:00 0
+ff900000-ffc00000 ---p 00000000 00:00 0
+ffc00000-ffc82000 rw-p 00c1b000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ffc82000-ffd00000 rw-p 00000000 00:00 0
+ffd00000-100000000 ---p 00000000 00:00 0
+800000000-800458000 rw-p 00001000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800458000-800be2000 r--p 00459000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800be2000-800c00000 ---p 00000000 00:00 0
+800c00000-800c30000 rw-p 00000000 00:00 0
+800c30000-800c40000 ---p 00000000 00:00 0
+800c40000-800c80000 rw-p 00000000 00:00 0
+800c80000-840c00000 ---p 00000000 00:00 0
+559c02e51000-559c02e52000 r--p 00000000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e52000-559c02e53000 r-xp 00001000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e53000-559c02e54000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e54000-559c02e55000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c02e55000-559c02e56000 rw-p 00003000 fe:01 2881946                    /opt/java/openjdk/bin/java
+559c03b24000-559c03b45000 rw-p 00000000 00:00 0                          [heap]
+7f7698000000-7f769817a000 rw-p 00000000 00:00 0
+7f769817a000-7f769c000000 ---p 00000000 00:00 0
+7f769c000000-7f769c021000 rw-p 00000000 00:00 0
+7f769c021000-7f76a0000000 ---p 00000000 00:00 0
+7f76a0000000-7f76a0021000 rw-p 00000000 00:00 0
+7f76a0021000-7f76a4000000 ---p 00000000 00:00 0
+7f76a4000000-7f76a46fc000 rw-p 00000000 00:00 0
+7f76a46fc000-7f76a8000000 ---p 00000000 00:00 0
+7f76a8000000-7f76a8021000 rw-p 00000000 00:00 0
+7f76a8021000-7f76ac000000 ---p 00000000 00:00 0
+7f76ac000000-7f76ac021000 rw-p 00000000 00:00 0
+7f76ac021000-7f76b0000000 ---p 00000000 00:00 0
+7f76b0000000-7f76b0021000 rw-p 00000000 00:00 0
+7f76b0021000-7f76b4000000 ---p 00000000 00:00 0
+7f76b4000000-7f76b4021000 rw-p 00000000 00:00 0
+7f76b4021000-7f76b8000000 ---p 00000000 00:00 0
+7f76b8000000-7f76b8021000 rw-p 00000000 00:00 0
+7f76b8021000-7f76bc000000 ---p 00000000 00:00 0
+7f76bc000000-7f76bc057000 rw-p 00000000 00:00 0
+7f76bc057000-7f76c0000000 ---p 00000000 00:00 0
+7f76c0000000-7f76c0021000 rw-p 00000000 00:00 0
+7f76c0021000-7f76c4000000 ---p 00000000 00:00 0
+7f76c56cb000-7f76c56cc000 ---p 00000000 00:00 0
+7f76c56cc000-7f76c57cd000 rw-p 00000000 00:00 0
+7f76c57cd000-7f76c57d1000 ---p 00000000 00:00 0
+7f76c57d1000-7f76c58cd000 rw-p 00000000 00:00 0
+7f76c58cd000-7f76c58ce000 ---p 00000000 00:00 0
+7f76c58ce000-7f76c59cf000 rw-p 00000000 00:00 0
+7f76c59cf000-7f76c59d3000 ---p 00000000 00:00 0
+7f76c59d3000-7f76c5acf000 rw-p 00000000 00:00 0
+7f76c5acf000-7f76c5ad3000 ---p 00000000 00:00 0
+7f76c5ad3000-7f76c5c00000 rw-p 00000000 00:00 0
+7f76c5c00000-7f76c5c04000 ---p 00000000 00:00 0
+7f76c5c04000-7f76c5d00000 rw-p 00000000 00:00 0
+7f76c5d00000-7f76c5d04000 ---p 00000000 00:00 0
+7f76c5d04000-7f76c5e00000 rw-p 00000000 00:00 0
+7f76c5e00000-7f76c5e04000 ---p 00000000 00:00 0
+7f76c5e04000-7f76c5f00000 rw-p 00000000 00:00 0
+7f76c5f00000-7f76c5f04000 ---p 00000000 00:00 0
+7f76c5f04000-7f76c8000000 rw-p 00000000 00:00 0
+7f76c8000000-7f76c8021000 rw-p 00000000 00:00 0
+7f76c8021000-7f76cc000000 ---p 00000000 00:00 0
+7f76cc000000-7f76cc021000 rw-p 00000000 00:00 0
+7f76cc021000-7f76d0000000 ---p 00000000 00:00 0
+7f76d0000000-7f76d0021000 rw-p 00000000 00:00 0
+7f76d0021000-7f76d4000000 ---p 00000000 00:00 0
+7f76d4015000-7f76d4019000 ---p 00000000 00:00 0
+7f76d4019000-7f76d4115000 rw-p 00000000 00:00 0
+7f76d4115000-7f76d4119000 ---p 00000000 00:00 0
+7f76d4119000-7f76d4215000 rw-p 00000000 00:00 0
+7f76d4215000-7f76d44fe000 r--p 00000000 fe:01 2816722                    /usr/lib/locale/locale-archive
+7f76d44fe000-7f76d4502000 ---p 00000000 00:00 0
+7f76d4502000-7f76d45fe000 rw-p 00000000 00:00 0
+7f76d45fe000-7f76d4602000 ---p 00000000 00:00 0
+7f76d4602000-7f76d46fe000 rw-p 00000000 00:00 0
+7f76d46fe000-7f76d46ff000 ---p 00000000 00:00 0
+7f76d46ff000-7f76d49f0000 rw-p 00000000 00:00 0
+7f76d49f0000-7f76d4c00000 ---p 00000000 00:00 0
+7f76d4c00000-7f76d4c50000 rw-p 00000000 00:00 0
+7f76d4c50000-7f76d5000000 ---p 00000000 00:00 0
+7f76d5025000-7f76d502a000 r--p 00000000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d502a000-7f76d506b000 r-xp 00005000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d506b000-7f76d50f4000 r--p 00046000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d50f4000-7f76d50f5000 r--p 000ce000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d50f5000-7f76d50f6000 rw-p 000cf000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7f76d50f6000-7f76d5177000 rw-p 00000000 00:00 0
+7f76d5177000-7f76d5178000 ---p 00000000 00:00 0
+7f76d5178000-7f76d5279000 rw-p 00000000 00:00 0
+7f76d5279000-7f76d527a000 ---p 00000000 00:00 0
+7f76d527a000-7f76d547c000 rw-p 00000000 00:00 0
+7f76d547c000-7f76d56ec000 rwxp 00000000 00:00 0
+7f76d56ec000-7f76d5a0b000 ---p 00000000 00:00 0
+7f76d5a0b000-7f76d5c7b000 rwxp 00000000 00:00 0
+7f76d5c7b000-7f76dcf43000 ---p 00000000 00:00 0
+7f76dcf43000-7f76dd1b3000 rwxp 00000000 00:00 0
+7f76dd1b3000-7f76e447c000 ---p 00000000 00:00 0
+7f76e447c000-7f76ec000000 r--s 00000000 fe:01 2882433                    /opt/java/openjdk/lib/modules
+7f76ec000000-7f76ec1d5000 rw-p 00000000 00:00 0
+7f76ec1d5000-7f76f0000000 ---p 00000000 00:00 0
+7f76f0014000-7f76f0015000 r--p 00000000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0015000-7f76f0016000 r-xp 00001000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0016000-7f76f0017000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0017000-7f76f0018000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0018000-7f76f0019000 rw-p 00003000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7f76f0019000-7f76f001b000 r--p 00000000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f001b000-7f76f001f000 r-xp 00002000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f001f000-7f76f0021000 r--p 00006000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f0021000-7f76f0022000 r--p 00007000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f0022000-7f76f0023000 rw-p 00008000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7f76f0023000-7f76f0027000 r--p 00000000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f0027000-7f76f0035000 r-xp 00004000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f0035000-7f76f0039000 r--p 00012000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f0039000-7f76f003a000 r--p 00015000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f003a000-7f76f003b000 rw-p 00016000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7f76f003b000-7f76f0042000 r--p 00000000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0042000-7f76f004b000 r-xp 00007000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f004b000-7f76f004f000 r--p 00010000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f004f000-7f76f0050000 ---p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0050000-7f76f0051000 r--p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0051000-7f76f0052000 rw-p 00015000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7f76f0052000-7f76f01ef000 rw-p 00000000 00:00 0
+7f76f01ef000-7f76f01f0000 ---p 00000000 00:00 0
+7f76f01f0000-7f76f02f1000 rw-p 00000000 00:00 0
+7f76f02f1000-7f76f02f2000 ---p 00000000 00:00 0
+7f76f02f2000-7f76f03f3000 rw-p 00000000 00:00 0
+7f76f03f3000-7f76f03f4000 ---p 00000000 00:00 0
+7f76f03f4000-7f76f07c2000 rw-p 00000000 00:00 0
+7f76f07c2000-7f76f1456000 ---p 00000000 00:00 0
+7f76f1456000-7f76f145a000 rw-p 00000000 00:00 0
+7f76f145a000-7f76f1466000 ---p 00000000 00:00 0
+7f76f1466000-7f76f146a000 rw-p 00000000 00:00 0
+7f76f146a000-7f76f1476000 ---p 00000000 00:00 0
+7f76f1476000-7f76f1722000 rw-p 00000000 00:00 0
+7f76f1722000-7f76f23b6000 ---p 00000000 00:00 0
+7f76f23b6000-7f76f23ba000 rw-p 00000000 00:00 0
+7f76f23ba000-7f76f23c6000 ---p 00000000 00:00 0
+7f76f23c6000-7f76f23ca000 rw-p 00000000 00:00 0
+7f76f23ca000-7f76f23d6000 ---p 00000000 00:00 0
+7f76f23d6000-7f76f242c000 rw-p 00000000 00:00 0
+7f76f242c000-7f76f25be000 ---p 00000000 00:00 0
+7f76f25be000-7f76f25bf000 rw-p 00000000 00:00 0
+7f76f25bf000-7f76f25c0000 ---p 00000000 00:00 0
+7f76f25c0000-7f76f25c1000 rw-p 00000000 00:00 0
+7f76f25c1000-7f76f25c2000 ---p 00000000 00:00 0
+7f76f25c2000-7f76f2618000 rw-p 00000000 00:00 0
+7f76f2618000-7f76f27aa000 ---p 00000000 00:00 0
+7f76f27aa000-7f76f27ab000 rw-p 00000000 00:00 0
+7f76f27ab000-7f76f27ac000 ---p 00000000 00:00 0
+7f76f27ac000-7f76f27ad000 rw-p 00000000 00:00 0
+7f76f27ad000-7f76f27ae000 ---p 00000000 00:00 0
+7f76f27ae000-7f76f2804000 rw-p 00000000 00:00 0
+7f76f2804000-7f76f2996000 ---p 00000000 00:00 0
+7f76f2996000-7f76f2997000 rw-p 00000000 00:00 0
+7f76f2997000-7f76f2998000 ---p 00000000 00:00 0
+7f76f2998000-7f76f2999000 rw-p 00000000 00:00 0
+7f76f2999000-7f76f299a000 ---p 00000000 00:00 0
+7f76f299a000-7f76f2ba1000 rw-p 00000000 00:00 0
+7f76f2ba1000-7f76f2c87000 ---p 00000000 00:00 0
+7f76f2c87000-7f76f2c8c000 rw-p 00000000 00:00 0
+7f76f2c8c000-7f76f2d72000 ---p 00000000 00:00 0
+7f76f2d72000-7f76f2d77000 rw-p 00000000 00:00 0
+7f76f2d77000-7f76f2d7e000 ---p 00000000 00:00 0
+7f76f2d7e000-7f76f2d8b000 r--p 00000000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2d8b000-7f76f2d9d000 r-xp 0000d000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2d9d000-7f76f2da3000 r--p 0001f000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da3000-7f76f2da4000 ---p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da4000-7f76f2da5000 r--p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da5000-7f76f2da6000 rw-p 00026000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7f76f2da6000-7f76f2da7000 rw-p 00000000 00:00 0
+7f76f2da7000-7f76f2daf000 rw-s 00000000 fe:01 1833515                    /tmp/hsperfdata_root/13380
+7f76f2daf000-7f76f2db3000 r--p 00000000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2db3000-7f76f2dc6000 r-xp 00004000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dc6000-7f76f2dcc000 r--p 00017000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dcc000-7f76f2dce000 r--p 0001c000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dce000-7f76f2dcf000 rw-p 0001e000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7f76f2dcf000-7f76f2dd3000 ---p 00000000 00:00 0
+7f76f2dd3000-7f76f2ecf000 rw-p 00000000 00:00 0
+7f76f2ecf000-7f76f2edd000 r--p 00000000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2edd000-7f76f2f59000 r-xp 0000e000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2f59000-7f76f2fb4000 r--p 0008a000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2fb4000-7f76f2fb5000 r--p 000e4000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2fb5000-7f76f2fb6000 rw-p 000e5000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7f76f2fb6000-7f76f2fb7000 r--p 00000000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fb7000-7f76f2fb8000 r-xp 00001000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fb8000-7f76f2fb9000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fb9000-7f76f2fba000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fba000-7f76f2fbb000 rw-p 00003000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7f76f2fbb000-7f76f320c000 r--p 00000000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f320c000-7f76f3f25000 r-xp 00251000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f3f25000-7f76f41b0000 r--p 00f6a000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f41b0000-7f76f4269000 r--p 011f4000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f4269000-7f76f429e000 rw-p 012ad000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7f76f429e000-7f76f42fc000 rw-p 00000000 00:00 0
+7f76f42fc000-7f76f4324000 r--p 00000000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4324000-7f76f44b9000 r-xp 00028000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f44b9000-7f76f4511000 r--p 001bd000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4511000-7f76f4515000 r--p 00214000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4515000-7f76f4517000 rw-p 00218000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7f76f4517000-7f76f4524000 rw-p 00000000 00:00 0
+7f76f4524000-7f76f4525000 r--p 00000000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4525000-7f76f4526000 r-xp 00001000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4526000-7f76f4527000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4527000-7f76f4528000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4528000-7f76f4529000 rw-p 00003000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7f76f4529000-7f76f452a000 r--p 00000000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452a000-7f76f452b000 r-xp 00001000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452b000-7f76f452c000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452c000-7f76f452d000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452d000-7f76f452e000 rw-p 00003000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f76f452e000-7f76f4531000 r--p 00000000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f4531000-7f76f453b000 r-xp 00003000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f453b000-7f76f453e000 r--p 0000d000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f453e000-7f76f453f000 ---p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f453f000-7f76f4540000 r--p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f4540000-7f76f4541000 rw-p 00011000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7f76f4541000-7f76f4543000 r--p 00000000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f4543000-7f76f4554000 r-xp 00002000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f4554000-7f76f455a000 r--p 00013000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455a000-7f76f455b000 ---p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455b000-7f76f455c000 r--p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455c000-7f76f455d000 rw-p 0001a000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7f76f455e000-7f76f455f000 ---p 00000000 00:00 0
+7f76f455f000-7f76f4560000 r--p 00000000 00:00 0
+7f76f4560000-7f76f4562000 rw-p 00000000 00:00 0
+7f76f4562000-7f76f4564000 r--p 00000000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f4564000-7f76f458e000 r-xp 00002000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f458e000-7f76f4599000 r--p 0002c000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f4599000-7f76f459a000 ---p 00000000 00:00 0
+7f76f459a000-7f76f459c000 r--p 00037000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f76f459c000-7f76f459e000 rw-p 00039000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd5abb1000-7ffd5abd2000 rw-p 00000000 00:00 0                          [stack]
+7ffd5abe4000-7ffd5abe8000 r--p 00000000 00:00 0                          [vvar]
+7ffd5abe8000-7ffd5abea000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+found: 4286723064
+[ff8233f7]: 0 1 62 a9
+[ff8233fb]: 8d 5c 0 0
+[ff8233ff]: 0 58 17 0
+[ff823403]: 0 0 0 0
+[ff823407]: 0 b8 34 21
+[ff82340b]: 0 8 0 0
+[ff82340f]: 0 0 0 0
+[ff823413]: 0 0 0 0
+[ff823417]: 0 24 0 0
+[ff82341b]: 0 0 0 0
+[ff82341f]: 0 0 0 0
+[ff823423]: 0 0 0 0
+[ff823427]: 0 10 38 80
+[ff82342b]: c2 0 0 0
+[ff82342f]: 0 0 0 0
+[ff823433]: 0 0 0 0
+[ff823437]: 0 30 7e 8b
+[ff82343b]: c2 0 0 0
+[ff82343f]: 0 0 0 0
+[ff823443]: 0 0 0 0
+[ff823447]: 0 0 0 0
+[ff82344b]: 0 0 0 0
+[ff82344f]: 0 0 0 0
+[ff823453]: 0 0 0 0
+[ff823457]: 0 0 0 0
+linkertestaddr: 4286585504
+oscaddr: 4286723064
+java.lang.IllegalAccessException: class trust.nccgroup.linkertest.LinkerTest (in module trust.nccgroup.linkertest) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module trust.nccgroup.linkertest
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at trust.nccgroup.linkertest/trust.nccgroup.linkertest.LinkerTest.main(LinkerTest.java:236)
+module trust.nccgroup.linkertest
+java.lang.IllegalAccessException: class trust.nccgroup.linkertest.LinkerTest (in module trust.nccgroup.linkertest) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module trust.nccgroup.linkertest
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at trust.nccgroup.linkertest/trust.nccgroup.linkertest.LinkerTest.main(LinkerTest.java:257)
+root@84af618e2239:/moduletest/linker# java --add-modules jdk.incubator.foreign --enable-native-access=trust.nccgroup.linkertest -p build/libs/linkertest.jar -m trust.nccgroup.linkertest/trust.nccgroup.linkertest.LinkerTest
+WARNING: Using incubator modules: jdk.incubator.foreign
+scanning for class trust.nccgroup.linkertest.LinkerTest
+c2800000-c6600000 rw-p 00000000 00:00 0
+c6600000-ff800000 ---p 00000000 00:00 0
+ff800000-ff876000 rw-p 00c9d000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ff876000-ff900000 rw-p 00000000 00:00 0
+ff900000-ffc00000 ---p 00000000 00:00 0
+ffc00000-ffc82000 rw-p 00c1b000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ffc82000-ffd00000 rw-p 00000000 00:00 0
+ffd00000-100000000 ---p 00000000 00:00 0
+800000000-800458000 rw-p 00001000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800458000-800be2000 r--p 00459000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800be2000-800c00000 ---p 00000000 00:00 0
+800c00000-800c20000 rw-p 00000000 00:00 0
+800c20000-800c40000 ---p 00000000 00:00 0
+800c40000-800c80000 rw-p 00000000 00:00 0
+800c80000-840c00000 ---p 00000000 00:00 0
+55dab5511000-55dab5512000 r--p 00000000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5512000-55dab5513000 r-xp 00001000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5513000-55dab5514000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5514000-55dab5515000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5515000-55dab5516000 rw-p 00003000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab6e84000-55dab6ea5000 rw-p 00000000 00:00 0                          [heap]
+7fda48000000-7fda4817e000 rw-p 00000000 00:00 0
+7fda4817e000-7fda4c000000 ---p 00000000 00:00 0
+7fda4c000000-7fda4c021000 rw-p 00000000 00:00 0
+7fda4c021000-7fda50000000 ---p 00000000 00:00 0
+7fda50000000-7fda50021000 rw-p 00000000 00:00 0
+7fda50021000-7fda54000000 ---p 00000000 00:00 0
+7fda54000000-7fda54173000 rw-p 00000000 00:00 0
+7fda54173000-7fda58000000 ---p 00000000 00:00 0
+7fda58000000-7fda58021000 rw-p 00000000 00:00 0
+7fda58021000-7fda5c000000 ---p 00000000 00:00 0
+7fda5c000000-7fda5c021000 rw-p 00000000 00:00 0
+7fda5c021000-7fda60000000 ---p 00000000 00:00 0
+7fda60000000-7fda60021000 rw-p 00000000 00:00 0
+7fda60021000-7fda64000000 ---p 00000000 00:00 0
+7fda64000000-7fda64021000 rw-p 00000000 00:00 0
+7fda64021000-7fda68000000 ---p 00000000 00:00 0
+7fda68000000-7fda68021000 rw-p 00000000 00:00 0
+7fda68021000-7fda6c000000 ---p 00000000 00:00 0
+7fda6c000000-7fda6c021000 rw-p 00000000 00:00 0
+7fda6c021000-7fda70000000 ---p 00000000 00:00 0
+7fda70000000-7fda70021000 rw-p 00000000 00:00 0
+7fda70021000-7fda74000000 ---p 00000000 00:00 0
+7fda754e4000-7fda754e8000 ---p 00000000 00:00 0
+7fda754e8000-7fda755e4000 rw-p 00000000 00:00 0
+7fda755e4000-7fda755e5000 ---p 00000000 00:00 0
+7fda755e5000-7fda756e6000 rw-p 00000000 00:00 0
+7fda756e6000-7fda756ea000 ---p 00000000 00:00 0
+7fda756ea000-7fda757e6000 rw-p 00000000 00:00 0
+7fda757e6000-7fda757ea000 ---p 00000000 00:00 0
+7fda757ea000-7fda75917000 rw-p 00000000 00:00 0
+7fda75917000-7fda7591b000 ---p 00000000 00:00 0
+7fda7591b000-7fda75a17000 rw-p 00000000 00:00 0
+7fda75a17000-7fda75a1b000 ---p 00000000 00:00 0
+7fda75a1b000-7fda75b17000 rw-p 00000000 00:00 0
+7fda75b17000-7fda75b1b000 ---p 00000000 00:00 0
+7fda75b1b000-7fda75c17000 rw-p 00000000 00:00 0
+7fda75c17000-7fda75c1b000 ---p 00000000 00:00 0
+7fda75c1b000-7fda75d17000 rw-p 00000000 00:00 0
+7fda75d17000-7fda76000000 r--p 00000000 fe:01 2816722                    /usr/lib/locale/locale-archive
+7fda76000000-7fda78000000 rw-p 00000000 00:00 0
+7fda78000000-7fda78021000 rw-p 00000000 00:00 0
+7fda78021000-7fda7c000000 ---p 00000000 00:00 0
+7fda7c000000-7fda7c021000 rw-p 00000000 00:00 0
+7fda7c021000-7fda80000000 ---p 00000000 00:00 0
+7fda80000000-7fda80021000 rw-p 00000000 00:00 0
+7fda80021000-7fda84000000 ---p 00000000 00:00 0
+7fda84000000-7fda84004000 ---p 00000000 00:00 0
+7fda84004000-7fda84100000 rw-p 00000000 00:00 0
+7fda84100000-7fda84104000 ---p 00000000 00:00 0
+7fda84104000-7fda84200000 rw-p 00000000 00:00 0
+7fda84200000-7fda84204000 ---p 00000000 00:00 0
+7fda84204000-7fda84300000 rw-p 00000000 00:00 0
+7fda84300000-7fda84304000 ---p 00000000 00:00 0
+7fda84304000-7fda845a0000 rw-p 00000000 00:00 0
+7fda845a0000-7fda84800000 ---p 00000000 00:00 0
+7fda84800000-7fda84840000 rw-p 00000000 00:00 0
+7fda84840000-7fda84c00000 ---p 00000000 00:00 0
+7fda84c1e000-7fda84c1f000 ---p 00000000 00:00 0
+7fda84c1f000-7fda84d20000 rw-p 00000000 00:00 0
+7fda84d20000-7fda84d25000 r--p 00000000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84d25000-7fda84d66000 r-xp 00005000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84d66000-7fda84def000 r--p 00046000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84def000-7fda84df0000 r--p 000ce000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84df0000-7fda84df1000 rw-p 000cf000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84df1000-7fda84e72000 rw-p 00000000 00:00 0
+7fda84e72000-7fda84e73000 ---p 00000000 00:00 0
+7fda84e73000-7fda84f74000 rw-p 00000000 00:00 0
+7fda84f74000-7fda84f75000 ---p 00000000 00:00 0
+7fda84f75000-7fda85278000 rw-p 00000000 00:00 0
+7fda85278000-7fda85279000 ---p 00000000 00:00 0
+7fda85279000-7fda8537a000 rw-p 00000000 00:00 0
+7fda8537a000-7fda8537b000 ---p 00000000 00:00 0
+7fda8537b000-7fda8547c000 rw-p 00000000 00:00 0
+7fda8547c000-7fda856ec000 rwxp 00000000 00:00 0
+7fda856ec000-7fda85a0b000 ---p 00000000 00:00 0
+7fda85a0b000-7fda85c7b000 rwxp 00000000 00:00 0
+7fda85c7b000-7fda8cf43000 ---p 00000000 00:00 0
+7fda8cf43000-7fda8d1b3000 rwxp 00000000 00:00 0
+7fda8d1b3000-7fda9447c000 ---p 00000000 00:00 0
+7fda9447c000-7fda9c000000 r--s 00000000 fe:01 2882433                    /opt/java/openjdk/lib/modules
+7fda9c000000-7fda9c1ec000 rw-p 00000000 00:00 0
+7fda9c1ec000-7fdaa0000000 ---p 00000000 00:00 0
+7fdaa000f000-7fdaa0010000 r--p 00000000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0010000-7fdaa0011000 r-xp 00001000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0011000-7fdaa0012000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0012000-7fdaa0013000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0013000-7fdaa0014000 rw-p 00003000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0014000-7fdaa0016000 r--p 00000000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa0016000-7fdaa001a000 r-xp 00002000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001a000-7fdaa001c000 r--p 00006000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001c000-7fdaa001d000 r--p 00007000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001d000-7fdaa001e000 rw-p 00008000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001e000-7fdaa0022000 r--p 00000000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0022000-7fdaa0030000 r-xp 00004000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0030000-7fdaa0034000 r--p 00012000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0034000-7fdaa0035000 r--p 00015000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0035000-7fdaa0036000 rw-p 00016000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0036000-7fdaa003d000 r--p 00000000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa003d000-7fdaa0046000 r-xp 00007000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa0046000-7fdaa004a000 r--p 00010000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004a000-7fdaa004b000 ---p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004b000-7fdaa004c000 r--p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004c000-7fdaa004d000 rw-p 00015000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004d000-7fdaa00e9000 rw-p 00000000 00:00 0
+7fdaa00e9000-7fdaa00ea000 ---p 00000000 00:00 0
+7fdaa00ea000-7fdaa0304000 rw-p 00000000 00:00 0
+7fdaa0304000-7fdaa114c000 ---p 00000000 00:00 0
+7fdaa114c000-7fdaa1150000 rw-p 00000000 00:00 0
+7fdaa1150000-7fdaa115c000 ---p 00000000 00:00 0
+7fdaa115c000-7fdaa1160000 rw-p 00000000 00:00 0
+7fdaa1160000-7fdaa116c000 ---p 00000000 00:00 0
+7fdaa116c000-7fdaa1264000 rw-p 00000000 00:00 0
+7fdaa1264000-7fdaa20ac000 ---p 00000000 00:00 0
+7fdaa20ac000-7fdaa20b0000 rw-p 00000000 00:00 0
+7fdaa20b0000-7fdaa20bc000 ---p 00000000 00:00 0
+7fdaa20bc000-7fdaa20c0000 rw-p 00000000 00:00 0
+7fdaa20c0000-7fdaa20cc000 ---p 00000000 00:00 0
+7fdaa20cc000-7fdaa20eb000 rw-p 00000000 00:00 0
+7fdaa20eb000-7fdaa22b4000 ---p 00000000 00:00 0
+7fdaa22b4000-7fdaa22b5000 rw-p 00000000 00:00 0
+7fdaa22b5000-7fdaa22b6000 ---p 00000000 00:00 0
+7fdaa22b6000-7fdaa22b7000 rw-p 00000000 00:00 0
+7fdaa22b7000-7fdaa22b8000 ---p 00000000 00:00 0
+7fdaa22b8000-7fdaa22d7000 rw-p 00000000 00:00 0
+7fdaa22d7000-7fdaa24a0000 ---p 00000000 00:00 0
+7fdaa24a0000-7fdaa24a1000 rw-p 00000000 00:00 0
+7fdaa24a1000-7fdaa24a2000 ---p 00000000 00:00 0
+7fdaa24a2000-7fdaa24a3000 rw-p 00000000 00:00 0
+7fdaa24a3000-7fdaa24a4000 ---p 00000000 00:00 0
+7fdaa24a4000-7fdaa24c3000 rw-p 00000000 00:00 0
+7fdaa24c3000-7fdaa268c000 ---p 00000000 00:00 0
+7fdaa268c000-7fdaa268d000 rw-p 00000000 00:00 0
+7fdaa268d000-7fdaa268e000 ---p 00000000 00:00 0
+7fdaa268e000-7fdaa268f000 rw-p 00000000 00:00 0
+7fdaa268f000-7fdaa2690000 ---p 00000000 00:00 0
+7fdaa2690000-7fdaa2897000 rw-p 00000000 00:00 0
+7fdaa2897000-7fdaa297d000 ---p 00000000 00:00 0
+7fdaa297d000-7fdaa2982000 rw-p 00000000 00:00 0
+7fdaa2982000-7fdaa2a68000 ---p 00000000 00:00 0
+7fdaa2a68000-7fdaa2a6d000 rw-p 00000000 00:00 0
+7fdaa2a6d000-7fdaa2a74000 ---p 00000000 00:00 0
+7fdaa2a74000-7fdaa2a81000 r--p 00000000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a81000-7fdaa2a93000 r-xp 0000d000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a93000-7fdaa2a99000 r--p 0001f000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a99000-7fdaa2a9a000 ---p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a9a000-7fdaa2a9b000 r--p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a9b000-7fdaa2a9c000 rw-p 00026000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a9c000-7fdaa2a9d000 rw-p 00000000 00:00 0
+7fdaa2a9d000-7fdaa2aa5000 rw-s 00000000 fe:01 1833515                    /tmp/hsperfdata_root/13401
+7fdaa2aa5000-7fdaa2aa9000 r--p 00000000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2aa9000-7fdaa2abc000 r-xp 00004000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2abc000-7fdaa2ac2000 r--p 00017000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2ac2000-7fdaa2ac4000 r--p 0001c000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2ac4000-7fdaa2ac5000 rw-p 0001e000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2ac5000-7fdaa2ac9000 ---p 00000000 00:00 0
+7fdaa2ac9000-7fdaa2bc5000 rw-p 00000000 00:00 0
+7fdaa2bc5000-7fdaa2bd3000 r--p 00000000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2bd3000-7fdaa2c4f000 r-xp 0000e000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2c4f000-7fdaa2caa000 r--p 0008a000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2caa000-7fdaa2cab000 r--p 000e4000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2cab000-7fdaa2cac000 rw-p 000e5000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2cac000-7fdaa2cad000 r--p 00000000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cad000-7fdaa2cae000 r-xp 00001000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cae000-7fdaa2caf000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2caf000-7fdaa2cb0000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cb0000-7fdaa2cb1000 rw-p 00003000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cb1000-7fdaa2f02000 r--p 00000000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa2f02000-7fdaa3c1b000 r-xp 00251000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3c1b000-7fdaa3ea6000 r--p 00f6a000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3ea6000-7fdaa3f5f000 r--p 011f4000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3f5f000-7fdaa3f94000 rw-p 012ad000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3f94000-7fdaa3ff2000 rw-p 00000000 00:00 0
+7fdaa3ff2000-7fdaa401a000 r--p 00000000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa401a000-7fdaa41af000 r-xp 00028000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa41af000-7fdaa4207000 r--p 001bd000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa4207000-7fdaa420b000 r--p 00214000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa420b000-7fdaa420d000 rw-p 00218000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa420d000-7fdaa421a000 rw-p 00000000 00:00 0
+7fdaa421a000-7fdaa421b000 r--p 00000000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421b000-7fdaa421c000 r-xp 00001000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421c000-7fdaa421d000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421d000-7fdaa421e000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421e000-7fdaa421f000 rw-p 00003000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421f000-7fdaa4220000 r--p 00000000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4220000-7fdaa4221000 r-xp 00001000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4221000-7fdaa4222000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4222000-7fdaa4223000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4223000-7fdaa4224000 rw-p 00003000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4224000-7fdaa4227000 r--p 00000000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4227000-7fdaa4231000 r-xp 00003000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4231000-7fdaa4234000 r--p 0000d000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4234000-7fdaa4235000 ---p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4235000-7fdaa4236000 r--p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4236000-7fdaa4237000 rw-p 00011000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4237000-7fdaa4239000 r--p 00000000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4239000-7fdaa424a000 r-xp 00002000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa424a000-7fdaa4250000 r--p 00013000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4250000-7fdaa4251000 ---p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4251000-7fdaa4252000 r--p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4252000-7fdaa4253000 rw-p 0001a000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4254000-7fdaa4255000 ---p 00000000 00:00 0
+7fdaa4255000-7fdaa4256000 r--p 00000000 00:00 0
+7fdaa4256000-7fdaa4258000 rw-p 00000000 00:00 0
+7fdaa4258000-7fdaa425a000 r--p 00000000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa425a000-7fdaa4284000 r-xp 00002000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa4284000-7fdaa428f000 r--p 0002c000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa428f000-7fdaa4290000 ---p 00000000 00:00 0
+7fdaa4290000-7fdaa4292000 r--p 00037000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa4292000-7fdaa4294000 rw-p 00039000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffe2382f000-7ffe23850000 rw-p 00000000 00:00 0                          [stack]
+7ffe239d3000-7ffe239d7000 r--p 00000000 00:00 0                          [vvar]
+7ffe239d7000-7ffe239d9000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+found: 3263401160
+[c2838cc7]: 0 9 42 68
+[c2838ccb]: 47 49 0 0
+[c2838ccf]: 0 58 17 0
+[c2838cd3]: 0 0 0 0
+[c2838cd7]: 0 0 8 c0
+[c2838cdb]: 0 8 0 0
+[c2838cdf]: 0 0 0 0
+[c2838ce3]: 0 0 0 0
+[c2838ce7]: 0 e 0 0
+[c2838ceb]: 0 0 0 0
+[c2838cef]: 0 0 0 0
+[c2838cf3]: 0 38 8d 83
+[c2838cf7]: c2 88 8d 83
+[c2838cfb]: c2 58 6b 83
+[c2838cff]: c2 0 0 0
+[c2838d03]: 0 90 8e 83
+[c2838d07]: c2 0 0 0
+[c2838d0b]: 0 d8 8e 83
+[c2838d0f]: c2 0 0 0
+[c2838d13]: 0 0 0 0
+[c2838d17]: 0 0 0 0
+[c2838d1b]: 0 0 0 0
+[c2838d1f]: 0 0 0 0
+[c2838d23]: 0 0 0 0
+[c2838d27]: 0 88 9b 83
+scanning for class java.io.ObjectStreamClass
+c2800000-c6600000 rw-p 00000000 00:00 0
+c6600000-ff800000 ---p 00000000 00:00 0
+ff800000-ff876000 rw-p 00c9d000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ff876000-ff900000 rw-p 00000000 00:00 0
+ff900000-ffc00000 ---p 00000000 00:00 0
+ffc00000-ffc82000 rw-p 00c1b000 fe:01 2882442                            /opt/java/openjdk/lib/server/classes.jsa
+ffc82000-ffd00000 rw-p 00000000 00:00 0
+ffd00000-100000000 ---p 00000000 00:00 0
+800000000-800458000 rw-p 00001000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800458000-800be2000 r--p 00459000 fe:01 2882442                          /opt/java/openjdk/lib/server/classes.jsa
+800be2000-800c00000 ---p 00000000 00:00 0
+800c00000-800c30000 rw-p 00000000 00:00 0
+800c30000-800c40000 ---p 00000000 00:00 0
+800c40000-800c80000 rw-p 00000000 00:00 0
+800c80000-840c00000 ---p 00000000 00:00 0
+55dab5511000-55dab5512000 r--p 00000000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5512000-55dab5513000 r-xp 00001000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5513000-55dab5514000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5514000-55dab5515000 r--p 00002000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab5515000-55dab5516000 rw-p 00003000 fe:01 2881946                    /opt/java/openjdk/bin/java
+55dab6e84000-55dab6ea5000 rw-p 00000000 00:00 0                          [heap]
+7fda48000000-7fda481b9000 rw-p 00000000 00:00 0
+7fda481b9000-7fda4c000000 ---p 00000000 00:00 0
+7fda4c000000-7fda4c021000 rw-p 00000000 00:00 0
+7fda4c021000-7fda50000000 ---p 00000000 00:00 0
+7fda50000000-7fda50021000 rw-p 00000000 00:00 0
+7fda50021000-7fda54000000 ---p 00000000 00:00 0
+7fda54000000-7fda54686000 rw-p 00000000 00:00 0
+7fda54686000-7fda58000000 ---p 00000000 00:00 0
+7fda58000000-7fda58021000 rw-p 00000000 00:00 0
+7fda58021000-7fda5c000000 ---p 00000000 00:00 0
+7fda5c000000-7fda5c021000 rw-p 00000000 00:00 0
+7fda5c021000-7fda60000000 ---p 00000000 00:00 0
+7fda60000000-7fda60021000 rw-p 00000000 00:00 0
+7fda60021000-7fda64000000 ---p 00000000 00:00 0
+7fda64000000-7fda64021000 rw-p 00000000 00:00 0
+7fda64021000-7fda68000000 ---p 00000000 00:00 0
+7fda68000000-7fda68021000 rw-p 00000000 00:00 0
+7fda68021000-7fda6c000000 ---p 00000000 00:00 0
+7fda6c000000-7fda6c021000 rw-p 00000000 00:00 0
+7fda6c021000-7fda70000000 ---p 00000000 00:00 0
+7fda70000000-7fda70021000 rw-p 00000000 00:00 0
+7fda70021000-7fda74000000 ---p 00000000 00:00 0
+7fda753e2000-7fda753e3000 ---p 00000000 00:00 0
+7fda753e3000-7fda754e4000 rw-p 00000000 00:00 0
+7fda754e4000-7fda754e8000 ---p 00000000 00:00 0
+7fda754e8000-7fda755e4000 rw-p 00000000 00:00 0
+7fda755e4000-7fda755e5000 ---p 00000000 00:00 0
+7fda755e5000-7fda756e6000 rw-p 00000000 00:00 0
+7fda756e6000-7fda756ea000 ---p 00000000 00:00 0
+7fda756ea000-7fda757e6000 rw-p 00000000 00:00 0
+7fda757e6000-7fda757ea000 ---p 00000000 00:00 0
+7fda757ea000-7fda75917000 rw-p 00000000 00:00 0
+7fda75917000-7fda7591b000 ---p 00000000 00:00 0
+7fda7591b000-7fda75a17000 rw-p 00000000 00:00 0
+7fda75a17000-7fda75a1b000 ---p 00000000 00:00 0
+7fda75a1b000-7fda75b17000 rw-p 00000000 00:00 0
+7fda75b17000-7fda75b1b000 ---p 00000000 00:00 0
+7fda75b1b000-7fda75c17000 rw-p 00000000 00:00 0
+7fda75c17000-7fda75c1b000 ---p 00000000 00:00 0
+7fda75c1b000-7fda75d17000 rw-p 00000000 00:00 0
+7fda75d17000-7fda76000000 r--p 00000000 fe:01 2816722                    /usr/lib/locale/locale-archive
+7fda76000000-7fda78000000 rw-p 00000000 00:00 0
+7fda78000000-7fda78021000 rw-p 00000000 00:00 0
+7fda78021000-7fda7c000000 ---p 00000000 00:00 0
+7fda7c000000-7fda7c021000 rw-p 00000000 00:00 0
+7fda7c021000-7fda80000000 ---p 00000000 00:00 0
+7fda80000000-7fda80021000 rw-p 00000000 00:00 0
+7fda80021000-7fda84000000 ---p 00000000 00:00 0
+7fda84000000-7fda84004000 ---p 00000000 00:00 0
+7fda84004000-7fda84100000 rw-p 00000000 00:00 0
+7fda84100000-7fda84104000 ---p 00000000 00:00 0
+7fda84104000-7fda84200000 rw-p 00000000 00:00 0
+7fda84200000-7fda84204000 ---p 00000000 00:00 0
+7fda84204000-7fda84300000 rw-p 00000000 00:00 0
+7fda84300000-7fda84304000 ---p 00000000 00:00 0
+7fda84304000-7fda845f0000 rw-p 00000000 00:00 0
+7fda845f0000-7fda84800000 ---p 00000000 00:00 0
+7fda84800000-7fda84850000 rw-p 00000000 00:00 0
+7fda84850000-7fda84c00000 ---p 00000000 00:00 0
+7fda84c1e000-7fda84c1f000 ---p 00000000 00:00 0
+7fda84c1f000-7fda84d20000 rw-p 00000000 00:00 0
+7fda84d20000-7fda84d25000 r--p 00000000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84d25000-7fda84d66000 r-xp 00005000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84d66000-7fda84def000 r--p 00046000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84def000-7fda84df0000 r--p 000ce000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84df0000-7fda84df1000 rw-p 000cf000 fe:01 2882417                    /opt/java/openjdk/lib/libjsvml.so
+7fda84df1000-7fda84e72000 rw-p 00000000 00:00 0
+7fda84e72000-7fda84e73000 ---p 00000000 00:00 0
+7fda84e73000-7fda84f74000 rw-p 00000000 00:00 0
+7fda84f74000-7fda84f75000 ---p 00000000 00:00 0
+7fda84f75000-7fda85278000 rw-p 00000000 00:00 0
+7fda85278000-7fda85279000 ---p 00000000 00:00 0
+7fda85279000-7fda8537a000 rw-p 00000000 00:00 0
+7fda8537a000-7fda8537b000 ---p 00000000 00:00 0
+7fda8537b000-7fda8547c000 rw-p 00000000 00:00 0
+7fda8547c000-7fda856ec000 rwxp 00000000 00:00 0
+7fda856ec000-7fda85a0b000 ---p 00000000 00:00 0
+7fda85a0b000-7fda85c7b000 rwxp 00000000 00:00 0
+7fda85c7b000-7fda8cf43000 ---p 00000000 00:00 0
+7fda8cf43000-7fda8d1b3000 rwxp 00000000 00:00 0
+7fda8d1b3000-7fda9447c000 ---p 00000000 00:00 0
+7fda9447c000-7fda9c000000 r--s 00000000 fe:01 2882433                    /opt/java/openjdk/lib/modules
+7fda9c000000-7fda9c20d000 rw-p 00000000 00:00 0
+7fda9c20d000-7fdaa0000000 ---p 00000000 00:00 0
+7fdaa000f000-7fdaa0010000 r--p 00000000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0010000-7fdaa0011000 r-xp 00001000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0011000-7fdaa0012000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0012000-7fdaa0013000 r--p 00002000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0013000-7fdaa0014000 rw-p 00003000 fe:01 2882430                    /opt/java/openjdk/lib/libsyslookup.so
+7fdaa0014000-7fdaa0016000 r--p 00000000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa0016000-7fdaa001a000 r-xp 00002000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001a000-7fdaa001c000 r--p 00006000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001c000-7fdaa001d000 r--p 00007000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001d000-7fdaa001e000 rw-p 00008000 fe:01 2882432                    /opt/java/openjdk/lib/libzip.so
+7fdaa001e000-7fdaa0022000 r--p 00000000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0022000-7fdaa0030000 r-xp 00004000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0030000-7fdaa0034000 r--p 00012000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0034000-7fdaa0035000 r--p 00015000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0035000-7fdaa0036000 rw-p 00016000 fe:01 2882423                    /opt/java/openjdk/lib/libnet.so
+7fdaa0036000-7fdaa003d000 r--p 00000000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa003d000-7fdaa0046000 r-xp 00007000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa0046000-7fdaa004a000 r--p 00010000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004a000-7fdaa004b000 ---p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004b000-7fdaa004c000 r--p 00014000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004c000-7fdaa004d000 rw-p 00015000 fe:01 2882424                    /opt/java/openjdk/lib/libnio.so
+7fdaa004d000-7fdaa00e9000 rw-p 00000000 00:00 0
+7fdaa00e9000-7fdaa00ea000 ---p 00000000 00:00 0
+7fdaa00ea000-7fdaa0304000 rw-p 00000000 00:00 0
+7fdaa0304000-7fdaa114c000 ---p 00000000 00:00 0
+7fdaa114c000-7fdaa1150000 rw-p 00000000 00:00 0
+7fdaa1150000-7fdaa115c000 ---p 00000000 00:00 0
+7fdaa115c000-7fdaa1160000 rw-p 00000000 00:00 0
+7fdaa1160000-7fdaa116c000 ---p 00000000 00:00 0
+7fdaa116c000-7fdaa1264000 rw-p 00000000 00:00 0
+7fdaa1264000-7fdaa20ac000 ---p 00000000 00:00 0
+7fdaa20ac000-7fdaa20b0000 rw-p 00000000 00:00 0
+7fdaa20b0000-7fdaa20bc000 ---p 00000000 00:00 0
+7fdaa20bc000-7fdaa20c0000 rw-p 00000000 00:00 0
+7fdaa20c0000-7fdaa20cc000 ---p 00000000 00:00 0
+7fdaa20cc000-7fdaa20eb000 rw-p 00000000 00:00 0
+7fdaa20eb000-7fdaa22b4000 ---p 00000000 00:00 0
+7fdaa22b4000-7fdaa22b5000 rw-p 00000000 00:00 0
+7fdaa22b5000-7fdaa22b6000 ---p 00000000 00:00 0
+7fdaa22b6000-7fdaa22b7000 rw-p 00000000 00:00 0
+7fdaa22b7000-7fdaa22b8000 ---p 00000000 00:00 0
+7fdaa22b8000-7fdaa22d7000 rw-p 00000000 00:00 0
+7fdaa22d7000-7fdaa24a0000 ---p 00000000 00:00 0
+7fdaa24a0000-7fdaa24a1000 rw-p 00000000 00:00 0
+7fdaa24a1000-7fdaa24a2000 ---p 00000000 00:00 0
+7fdaa24a2000-7fdaa24a3000 rw-p 00000000 00:00 0
+7fdaa24a3000-7fdaa24a4000 ---p 00000000 00:00 0
+7fdaa24a4000-7fdaa24c3000 rw-p 00000000 00:00 0
+7fdaa24c3000-7fdaa268c000 ---p 00000000 00:00 0
+7fdaa268c000-7fdaa268d000 rw-p 00000000 00:00 0
+7fdaa268d000-7fdaa268e000 ---p 00000000 00:00 0
+7fdaa268e000-7fdaa268f000 rw-p 00000000 00:00 0
+7fdaa268f000-7fdaa2690000 ---p 00000000 00:00 0
+7fdaa2690000-7fdaa2897000 rw-p 00000000 00:00 0
+7fdaa2897000-7fdaa297d000 ---p 00000000 00:00 0
+7fdaa297d000-7fdaa2982000 rw-p 00000000 00:00 0
+7fdaa2982000-7fdaa2a68000 ---p 00000000 00:00 0
+7fdaa2a68000-7fdaa2a6d000 rw-p 00000000 00:00 0
+7fdaa2a6d000-7fdaa2a74000 ---p 00000000 00:00 0
+7fdaa2a74000-7fdaa2a81000 r--p 00000000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a81000-7fdaa2a93000 r-xp 0000d000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a93000-7fdaa2a99000 r--p 0001f000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a99000-7fdaa2a9a000 ---p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a9a000-7fdaa2a9b000 r--p 00025000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a9b000-7fdaa2a9c000 rw-p 00026000 fe:01 2882409                    /opt/java/openjdk/lib/libjava.so
+7fdaa2a9c000-7fdaa2a9d000 rw-p 00000000 00:00 0
+7fdaa2a9d000-7fdaa2aa5000 rw-s 00000000 fe:01 1833515                    /tmp/hsperfdata_root/13401
+7fdaa2aa5000-7fdaa2aa9000 r--p 00000000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2aa9000-7fdaa2abc000 r-xp 00004000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2abc000-7fdaa2ac2000 r--p 00017000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2ac2000-7fdaa2ac4000 r--p 0001c000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2ac4000-7fdaa2ac5000 rw-p 0001e000 fe:01 2882413                    /opt/java/openjdk/lib/libjimage.so
+7fdaa2ac5000-7fdaa2ac9000 ---p 00000000 00:00 0
+7fdaa2ac9000-7fdaa2bc5000 rw-p 00000000 00:00 0
+7fdaa2bc5000-7fdaa2bd3000 r--p 00000000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2bd3000-7fdaa2c4f000 r-xp 0000e000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2c4f000-7fdaa2caa000 r--p 0008a000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2caa000-7fdaa2cab000 r--p 000e4000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2cab000-7fdaa2cac000 rw-p 000e5000 fe:01 2999849                    /usr/lib/x86_64-linux-gnu/libm.so.6
+7fdaa2cac000-7fdaa2cad000 r--p 00000000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cad000-7fdaa2cae000 r-xp 00001000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cae000-7fdaa2caf000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2caf000-7fdaa2cb0000 r--p 00002000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cb0000-7fdaa2cb1000 rw-p 00003000 fe:01 2999894                    /usr/lib/x86_64-linux-gnu/librt.so.1
+7fdaa2cb1000-7fdaa2f02000 r--p 00000000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa2f02000-7fdaa3c1b000 r-xp 00251000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3c1b000-7fdaa3ea6000 r--p 00f6a000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3ea6000-7fdaa3f5f000 r--p 011f4000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3f5f000-7fdaa3f94000 rw-p 012ad000 fe:01 2882445                    /opt/java/openjdk/lib/server/libjvm.so
+7fdaa3f94000-7fdaa3ff2000 rw-p 00000000 00:00 0
+7fdaa3ff2000-7fdaa401a000 r--p 00000000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa401a000-7fdaa41af000 r-xp 00028000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa41af000-7fdaa4207000 r--p 001bd000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa4207000-7fdaa420b000 r--p 00214000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa420b000-7fdaa420d000 rw-p 00218000 fe:01 2999797                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7fdaa420d000-7fdaa421a000 rw-p 00000000 00:00 0
+7fdaa421a000-7fdaa421b000 r--p 00000000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421b000-7fdaa421c000 r-xp 00001000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421c000-7fdaa421d000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421d000-7fdaa421e000 r--p 00002000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421e000-7fdaa421f000 rw-p 00003000 fe:01 2999811                    /usr/lib/x86_64-linux-gnu/libdl.so.2
+7fdaa421f000-7fdaa4220000 r--p 00000000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4220000-7fdaa4221000 r-xp 00001000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4221000-7fdaa4222000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4222000-7fdaa4223000 r--p 00002000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4223000-7fdaa4224000 rw-p 00003000 fe:01 2999892                    /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7fdaa4224000-7fdaa4227000 r--p 00000000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4227000-7fdaa4231000 r-xp 00003000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4231000-7fdaa4234000 r--p 0000d000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4234000-7fdaa4235000 ---p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4235000-7fdaa4236000 r--p 00010000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4236000-7fdaa4237000 rw-p 00011000 fe:01 2882414                    /opt/java/openjdk/lib/libjli.so
+7fdaa4237000-7fdaa4239000 r--p 00000000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4239000-7fdaa424a000 r-xp 00002000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa424a000-7fdaa4250000 r--p 00013000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4250000-7fdaa4251000 ---p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4251000-7fdaa4252000 r--p 00019000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4252000-7fdaa4253000 rw-p 0001a000 fe:01 2999928                    /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+7fdaa4254000-7fdaa4255000 ---p 00000000 00:00 0
+7fdaa4255000-7fdaa4256000 r--p 00000000 00:00 0
+7fdaa4256000-7fdaa4258000 rw-p 00000000 00:00 0
+7fdaa4258000-7fdaa425a000 r--p 00000000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa425a000-7fdaa4284000 r-xp 00002000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa4284000-7fdaa428f000 r--p 0002c000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa428f000-7fdaa4290000 ---p 00000000 00:00 0
+7fdaa4290000-7fdaa4292000 r--p 00037000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fdaa4292000-7fdaa4294000 rw-p 00039000 fe:01 2999779                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffe2382f000-7ffe23850000 rw-p 00000000 00:00 0                          [stack]
+7ffe239d3000-7ffe239d7000 r--p 00000000 00:00 0                          [vvar]
+7ffe239d7000-7ffe239d9000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+found: 4286723064
+[ff8233f7]: 0 1 62 a9
+[ff8233fb]: 8d 5c 0 0
+[ff8233ff]: 0 58 17 0
+[ff823403]: 0 0 0 0
+[ff823407]: 0 b8 34 21
+[ff82340b]: 0 8 0 0
+[ff82340f]: 0 0 0 0
+[ff823413]: 0 0 0 0
+[ff823417]: 0 24 0 0
+[ff82341b]: 0 0 0 0
+[ff82341f]: 0 0 0 0
+[ff823423]: 0 0 0 0
+[ff823427]: 0 98 41 80
+[ff82342b]: c2 0 0 0
+[ff82342f]: 0 0 0 0
+[ff823433]: 0 0 0 0
+[ff823437]: 0 b8 66 8c
+[ff82343b]: c2 0 0 0
+[ff82343f]: 0 0 0 0
+[ff823443]: 0 0 0 0
+[ff823447]: 0 0 0 0
+[ff82344b]: 0 0 0 0
+[ff82344f]: 0 0 0 0
+[ff823453]: 0 0 0 0
+[ff823457]: 0 0 0 0
+linkertestaddr: 3263401160
+oscaddr: 4286723064
+java.lang.IllegalAccessException: class trust.nccgroup.linkertest.LinkerTest (in module trust.nccgroup.linkertest) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module trust.nccgroup.linkertest
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at trust.nccgroup.linkertest/trust.nccgroup.linkertest.LinkerTest.main(LinkerTest.java:236)
+module java.base
+jdk.internal.misc.Unsafe@61064425
